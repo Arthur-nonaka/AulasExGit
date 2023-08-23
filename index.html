@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <main>
     <table>
       <thead>
         <tr>
-          <td colspan="5">Jan</td>
-          <td colspan="4">Fev</td>
-          <td colspan="4">Mar</td>
-          <td colspan="5">Abr</td>
-          <td colspan="4">Mai</td>
-          <td colspan="4">Jun</td>
-          <td colspan="5">Jul</td>
-          <td colspan="4">Ago</td>
-          <td colspan="4">Set</td>
-          <td colspan="4">Out</td>
-          <td colspan="5">Nov</td>
-          <td colspan="4">Dez</td>
+          <td colspan="5" class="jan" data-mes="1">Jan</td>
+          <td colspan="4" class="fev" data-mes="2">Fev</td>
+          <td colspan="4" class="mar" data-mes="3">Mar</td>
+          <td colspan="5" class="abr" data-mes="4">Abr</td>
+          <td colspan="4" class="mai" data-mes="5">Mai</td>
+          <td colspan="4" class="jun" data-mes="6">Jun</td>
+          <td colspan="5" class="jul" data-mes="7">Jul</td>
+          <td colspan="4" class="ago" data-mes="8">Ago</td>
+          <td colspan="4" class="set" data-mes="9">Set</td>
+          <td colspan="4" class="out" data-mes="10">Out</td>
+          <td colspan="5" class="nov" data-mes="11">Nov</td>
+          <td colspan="4" class="dez" data-mes="12">Dez</td>
         </tr>
       </thead>
-      <tbody>
+      <tbody class="tbody-dias">
         <tr class="seg"></tr>
         <tr class="ter"></tr>
         <tr class="qua"></tr>
@@ -37,6 +40,8 @@
 
     <button id="buttonYear2022">2022</button>
     <button id="buttonYear2023">2023</button>
-    <script src="aulas.js"></script>
-  </body>
+  </main>
+  <script src="aulas.js"></script>
+</body>
+
 </html>

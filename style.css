@@ -1,6 +1,36 @@
+* {
+    margin: 0;
+    top: 0;
+}
+
 .dia {
-    width: 10px;
-    height: 10px;
-    border-radius: 5px;
-    background-color: rgb(64, 177, 124);
+    width: 14px;
+    height: 14px;
+    border-radius: 3px;
+    position: relative;
+    background-color: rgb(93, 201, 151);
+}
+
+.ruim {
+    background-color: #7f9781;
+}
+.meido {
+    background-color: #8fd894;
+}
+.bom {
+    background-color: #5ae963;
+}
+.info {
+    display: none;
+    background-color: rgb(170, 170, 204);
+    position:absolute;
+    padding: 10px;
+    z-index: 99;
+    color: rgb(0, 0, 0);
+    width: 150px;
+    top: -40px;
+    height: auto;
+}
+.info.show {
+    display: block;
 }
